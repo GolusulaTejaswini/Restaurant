@@ -1,0 +1,88 @@
+*{
+margin: 0;
+padding: 0;
+font-family: century gothic;
+font-weight: bold;
+background: url(images/cho.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../cho.jpg);
+}
+
+.loginbox{
+width: 320px;
+height: 420px;
+background:  rgba(0,0,0,0.5);
+border-style: inset;
+color: #FFF;
+top:50%;
+left: 30%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 100px 70px;
+}
+.avatar{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: -50px;
+left: calc(50% - 50px);
+
+}
+
+h2{
+margin: 0;
+padding: 0 0 20px;
+text-align: center;
+color: #FFF;
+font-size: 50px;
+text-shadow: 3px 2px red;
+}
+
+h1{
+margin: 0;
+padding: 0 0 20px;
+text-align: center;
+font-size: 22px;
+}
+
+.login-box p{
+margin: 0;
+padding: 0 0 20px;
+font-weight: bold;
+}
+
+.login-box input{
+width: 100%;
+margin-bottom: 50px;
+}
+
+
+
+div.ui-btn, input[type="button"]{
+
+ 
+outline: inset;
+height: 30px;
+background: #2F4F4F;
+color: #e7e7e7;
+font-size: 50px;
+
+border-radius: 30px;
+}
+
+.submit{
+ 
+
+height: 20px;
+background: #FFF;
+color: white;
+font-size: 16px;
+
+
+}
+
